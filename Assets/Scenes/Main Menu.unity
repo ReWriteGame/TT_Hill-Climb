@@ -6010,6 +6010,10 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 8839293866034853075, guid: 2ba73241dd618b74b9735dc814ba74ec, type: 3}
+      propertyPath: m_text
+      value: Music
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ba73241dd618b74b9735dc814ba74ec, type: 3}
 --- !u!224 &872378311 stripped
