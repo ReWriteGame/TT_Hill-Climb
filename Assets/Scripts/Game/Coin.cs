@@ -6,8 +6,7 @@ public class Coin : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.TryGetComponent(out Car car))
+        if (collision.transform.parent.TryGetComponent(out Car car))
             gameObject.SetActive(false);
-
     }
 }
